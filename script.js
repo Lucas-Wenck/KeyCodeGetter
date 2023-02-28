@@ -9,6 +9,6 @@ window.addEventListener('keydown', function(e){
     const keycode = e.keyCode;
     console.log(keycode);
     key.style.fontSize = `200px`;
-    document.getElementById('key').innerHTML = `${keycode}`;
-    this.document.getElementById('message').innerHTML = `This is the keycode of the key you just pressed!`;
+    document.getElementById('key').innerText = `${keycode}`;
+    this.document.getElementById('message').innerText = `This is the keycode of the key you just pressed!`;
 })
